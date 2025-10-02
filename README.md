@@ -33,8 +33,6 @@ app/
 ├── schemas.py       # Pydantic schemas
 ├── routers/         # API routers (auth, users, tenants, projects)
 ├── database.py      # Database session setup
-
-
 ````
 
 ---
@@ -85,6 +83,4 @@ app/
 This project is licensed under the MIT License.
 
 ```
-
----
 
