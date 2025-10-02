@@ -24,16 +24,15 @@ It provides JWT authentication, tenant-user relationships, and role-based access
 ---
 
 ## 📂 Project Structure
-```
 app/
 ├── main.py          # FastAPI entry point
 ├── models.py        # SQLAlchemy models (User, Tenant, Project)
 ├── schemas.py       # Pydantic schemas
 ├── routers/         # API routers (auth, users, tenants, projects)
 ├── database.py      # Database session setup
-└── utils.py         # Helper functions (hashing, JWT, etc.)
 
-````
+
+
 
 ---
 
