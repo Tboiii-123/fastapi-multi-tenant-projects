@@ -1,4 +1,3 @@
-
 ```markdown
 # FastAPI Multi-Tenant Project Management API
 
@@ -26,13 +25,14 @@ It provides JWT authentication, tenant-user relationships, and role-based access
 
 ## 📂 Project Structure
 ```
-
 app/
 ├── main.py          # FastAPI entry point
 ├── models.py        # SQLAlchemy models (User, Tenant, Project)
 ├── schemas.py       # Pydantic schemas
 ├── routers/         # API routers (auth, users, tenants, projects)
 ├── database.py      # Database session setup
+└── utils.py         # Helper functions (hashing, JWT, etc.)
+
 ````
 
 ---
@@ -84,3 +84,7 @@ This project is licensed under the MIT License.
 
 ```
 
+---
+
+⚡ Do you want me to also **generate a `requirements.txt`** file for you (with FastAPI, SQLAlchemy, JWT, etc.) so you can push alongside your code?
+```
